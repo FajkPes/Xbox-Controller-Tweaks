@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.py[cod]
+.xbox_remapper_profiles.json
+.xbox_remapper_settings.json
+Thumbs.db
+.DS_Store

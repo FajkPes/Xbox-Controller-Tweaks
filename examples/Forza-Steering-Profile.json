@@ -1,0 +1,104 @@
+{
+  "left_x_mult": 1.0,
+  "left_y_mult": 1.0,
+  "right_x_mult": 1.0,
+  "right_y_mult": 1.0,
+  "trigger_mult": 1.0,
+  "left_deadzone": 0.0,
+  "right_deadzone": 0.0,
+  "trigger_deadzone": 0.0,
+  "invert_left_y": false,
+  "invert_right_y": false,
+  "curve_left_x": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.02,
+      0.15476190476190477
+    ],
+    [
+      0.6190476190476191,
+      0.5952380952380952
+    ],
+    [
+      0.9761904761904762,
+      0.6488095238095238
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "curve_left_y": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.02,
+      0.15476190476190477
+    ],
+    [
+      0.6190476190476191,
+      0.5952380952380952
+    ],
+    [
+      0.9761904761904762,
+      0.6488095238095238
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "curve_right_x": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "curve_right_y": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "curve_lt": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "curve_rt": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "mode_left_x": "curve",
+  "mode_left_y": "curve",
+  "mode_right_x": "mult",
+  "mode_right_y": "mult",
+  "mode_lt": "mult",
+  "mode_rt": "mult",
+  "rumble_enabled": true,
+  "rumble_mult": 1.0
+}

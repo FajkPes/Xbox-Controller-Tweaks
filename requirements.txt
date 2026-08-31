@@ -1,0 +1,5 @@
+customtkinter==5.2.2
+pygame-ce==2.5.5
+vgamepad==0.1.0
+pystray==0.19.5
+Pillow==11.3.0
