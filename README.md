@@ -55,6 +55,27 @@ Each curve maps input magnitude from 0 to 1 onto an output magnitude from 0 to 1
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/Xbox-Controller-Tweaks/releases)
 
+## Preventing double input with HidHide
+
+Some games see both the real controller and the virtual Xbox controller. If that happens:
+
+1. Install HidHide from the [official repository](https://github.com/nefarius/HidHide/releases).
+2. Open the HidHide Configuration Client.
+3. On **Applications**, add this release's `.venv\Scripts\pythonw.exe` so the remapper may still read the physical controller.
+4. On **Devices**, select the physical controller that should be hidden from games.
+5. Enable device hiding and reconnect the controller if required.
+
+Do not hide the virtual Xbox 360 controller. Review the selections carefully so you do not lock another controller utility out of its device.
+
+## Example profiles
+
+The `examples` folder contains two profiles recovered from the latest project folder:
+
+- `Forza-Steering-Profile.json` — a more sensitive initial left-stick response with a restrained middle range.
+- `All-Sticks-Curve-Profile.json` — applies shaped curves to both sticks while leaving triggers linear.
+
+Import them with **Import profile**. Treat them as starting points and adjust them for your controller, game, and preferred steering feel.
+
 ## Credits
 
 **Idea, concept and design:** FajkPes  
