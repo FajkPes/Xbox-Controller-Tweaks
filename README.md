@@ -54,3 +54,8 @@ Driver installation may require administrator approval and a restart. The setup 
 Each curve maps input magnitude from 0 to 1 onto an output magnitude from 0 to 1. Double-click the graph to add a point, drag points to adjust the response, right-click a point to remove it, or use Copy/Paste between axes.
 
 [Detailed documentation](README-DETAILS.md) · [All releases](https://github.com/FajkPes/Xbox-Controller-Tweaks/releases)
+
+## Credits
+
+**Idea, concept and design:** FajkPes  
+**Coding:** ChatGPT Codex, Claude and Google Antigravity
